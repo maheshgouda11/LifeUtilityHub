@@ -1,0 +1,125 @@
+    .pmanager body { 
+    background-color: #f0f0f0; 
+    font-family: 'Arial', sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 20px; 
+    } 
+    
+    .pmanager .container { 
+    width: 50%; 
+    text-align: center; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin-top:20px;
+    } 
+    
+    .pmanager .heading { 
+    font-size: 28px; 
+    margin-bottom: 20px; 
+    color: #333; 
+    } 
+    
+    .pmanager .subHeading { 
+    font-size: 20px; 
+    margin-bottom: 15px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    } 
+    
+    .pmanager #alert { 
+    color: green; 
+    margin-left: 5px; 
+    } 
+    
+    .pmanager .input { 
+    width: 90%; 
+    padding: 12px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+    font-size: 16px; 
+    } 
+    
+    .pmanager .table { 
+    margin: 2rem 0; 
+    } 
+    
+    .pmanager .passwordItem { 
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 15px; 
+    margin-bottom: 15px; 
+    } 
+    
+    .pmanager .listItem { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+    } 
+    .pmanager .listValue { 
+    margin-right: 15px; 
+    } 
+    .pmanager .listLabel { 
+    font-weight: bold; 
+    width: 100px; 
+    padding: 12px; 
+    font-size: 18px; 
+    } 
+    
+    .pmanager .showPasswordIcon { 
+    cursor: pointer; 
+    margin-left: 16px; 
+    color: #007bff; 
+    font-size: 20px; 
+    transition: color 0.3s; 
+    } 
+    
+    .pmanager .showPasswordIcon:hover { 
+    color: #0056b3; 
+    } 
+    
+    .pmanager .copyIcon, 
+    .pmanager .editIcon, 
+    .pmanager .deleteIcon { 
+    cursor: pointer; 
+    color: #555; 
+    font-size: 20px; 
+    transition: color 0.3s; 
+    margin-left: 10px; 
+    } 
+    
+    .pmanager .copyIcon:hover, 
+    .pmanager .editIcon:hover, 
+    .pmanager .deleteIcon:hover { 
+    color: #007bff; 
+    } 
+    
+    .pmanager .submitButton { 
+    background: #007bff; 
+    color: #fff; 
+    padding: 12px 24px; 
+    text-align: center; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 12px 0; 
+    font-weight: bold; 
+    font-size: 18px; 
+    } 
+    
+    .pmanager .noData { 
+    text-align: center; 
+    color: #777; 
+    margin-top: 20px; 
+    font-size: 18px; 
+    } 
+    

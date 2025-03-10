@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.jumbotron {
+  background: #007bff;
+  color: white;
+  margin-bottom: 0;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+footer p {
+  margin: 0;
+}
+
+.card {
+  border: 1px solid #007bff;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
